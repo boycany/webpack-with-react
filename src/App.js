@@ -1,7 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom"
 
-const root = document.getElementById('root')
-const App = () => <h1>React with Webpack</h1>
+const App = () => {
+    console.log("webpack test.")
+    return  <h1>React with Webpack</h1>
+}    
 
-ReactDOM.render(<App />, root)
+export default App
